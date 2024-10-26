@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.image {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.image:hover {
+  border-color: #007bff;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.container {
+  padding: 20px;
+}
+
+.table-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-button {
+  margin-bottom: 20px;
+}
